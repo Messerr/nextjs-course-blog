@@ -8,7 +8,7 @@ const PostDetailPage = (props) => {
     <>
       <Head>
         <title>{props.post.title}</title>
-        <meta name='description' content={props.post.excerpt} />
+        <meta name="description" content={props.post.excerpt} />
       </Head>
       <PostContent post={props.post} />
     </>
